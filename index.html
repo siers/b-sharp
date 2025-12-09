@@ -1,1 +1,26 @@
-b-sharp.lv
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            const user = 'info';
+            const domain = 'b-sharp.lv';
+            const link = document.getElementById('link');
+            link.href = 'mail' + 'to:' + user + '@' + domain;
+        });
+    </script>
+</head>
+<body class="min-h-screen flex items-center justify-center bg-[#860622]">
+    <div class="text-center">
+        <img src="logo.svg" alt="Logo" class="mx-auto mb-6 max-w-md" width="300">
+        <hr class="my-12 border-gray-200">
+        <a href="https://www.instagram.com/aobsharp" class="block mt-2 text-white hover:text-gray-200">instagram</a>
+        <a href="https://www.facebook.com/AOBSharp" class="block mt-2 text-white hover:text-gray-200">facebook</a>
+        <a href="#" id="link" class="block mt-2 text-white hover:text-gray-200">email</a>
+    </div>
+</body>
+</html>
