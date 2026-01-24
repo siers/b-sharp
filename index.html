@@ -7,11 +7,10 @@
   <link href="/src/style.css" rel="stylesheet">
   <script>
     window.addEventListener('DOMContentLoaded', function() {
-      const user = 'info';
-      const domain = 'b-sharp.lv';
-      const link = document.getElementById('link');
-      link.href = 'mail' + 'to:' + user + '@' + domain;
-    });
+      const user = 'info'
+      const domain = 'b-sharp.lv'
+      document.querySelectorAll('#link').forEach(link => { link.href = 'mail' + 'to:' + user + '@' + domain })
+    })
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,27 +23,30 @@
   <header class="flex items-center justify-center pt-[1.5em] pb-[3em] bg-[#f8f8f8]">
     <img src="./src/b-sharp-horizontal-rgb.webp" alt="logo" class="h-[120px]">
   </header>
-  <div class="body p-[1em] bg-white min-h-[300px]">
-    <div class="max-w-[1000px] m-auto text-center text-[#]">
-      <h1>News</h1>
+  <div class="body p-[1em] bg-white min-h-[300px] pt-[3em]">
+    <div class="max-w-[1000px] m-auto">
+      <h1 class="mb-4 font-bold tracking-tight text-heading sm:text-4xl md:text-5xl lg:text-6xl">News</h1>
+      <h2 class="text-center font-bold mb-5 sm:text-3xl md:text-4xl lg:text-5xl">Join B-Sharp!</h2>
+
+      06-01-2025 - Hi! It’s time for inspiration to play some music! We’re looking for new members to join our orchestra again! If you play a string instrument, sign up for our auditions and stay updated!
     </div>
   </div>
   <footer class="text-white h-[300px]">
     <div class="bg-[#1f1f1f]">
       <div class="max-w-[1000px] m-auto flex flex-start flex-row p-[1em]">
-        <div class="p-[1em] inline-flex items-center flex-grow">
-          Our Principal Partners:
-        </div>
-        <div class="p-[1em] inline-flex items-center flex-grow justify-center">
-          <img class="p-[1em]" src="src/rsu-balts-logo-bez-fona.webp" alt="RSU sponsor" width="200">
-        </div>
-        <div class="p-[1em] inline-flex items-center flex-grow justify-end">
-          <img class="p-[1em]" src="src/rsu-sp-logo.webp" width="200">
-        </div>
+        <!-- <div class="p-[1em] inline-flex items-center flex-grow"> -->
+        <!--   Our Principal Partners: -->
+        <!-- </div> -->
+        <!-- <div class="p-[1em] inline-flex items-center flex-grow justify-center"> -->
+        <!--   <img class="p-[1em]" src="src/rsu-balts-logo-bez-fona.webp" alt="RSU sponsor" width="200"> -->
+        <!-- </div> -->
+        <!-- <div class="p-[1em] inline-flex items-center flex-grow justify-end"> -->
+        <!--   <img class="p-[1em]" src="src/rsu-sp-logo.webp" width="200"> -->
+        <!-- </div> -->
       </div>
     </div>
     <div class="bg-[#171717] p-[1em]">
-      <div class="max-w-[1000px] m-auto text-center text-[#]">
+      <div class="max-w-[1000px] m-auto pt-3 text-center text-[#]">
         Academic Orchestra B-Sharp, Palasta iela, Rīga, LV-1050, Latvia
       </div>
     </div>
