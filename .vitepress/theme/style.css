@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@source "../**/*.{vue,js,ts,md}";
+@source "../../*.md";
 
 @layer components {
-  .vp-doc h1 {
-    @apply mb-4 font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl;
-  }
-
-  .vp-doc h2 {
-    @apply text-center font-bold mb-5 sm:text-3xl md:text-4xl lg:text-5xl;
-  }
+  body { @apply bg-[#171717]; }
 }

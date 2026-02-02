@@ -7,17 +7,19 @@ const { page, frontmatter } = useData()
   <div class="bg-[#f8f8f8]">
     <nav id="sidebar" class="block md:flex items-center justify-between px-[1em] py-[1em] bg-[#f8f8f8] max-w-[1000px] m-auto text-center uppercase text-[#b30027] font-semibold">
       <img src="./b-sharp-horizontal-rgb.webp" alt="logo" class="h-[120px] block md:order-[1] md:inline mb-5 mr-auto ml-auto">
-      <a href="/" class="block sm:inline hover:text-slate-900 font-medium order-0">News</a>
-      <a :href="frontmatter.contact" class="block sm:inline hover:text-slate-900 font-medium order-1">Contact us</a>
+      <a href="/" class="block sm:inline hover:text-slate-900 font-medium order-0 text-xl">News</a>
+      <a :href="frontmatter.contact" class="block sm:inline hover:text-slate-900 font-medium order-1 text-xl">Contact us</a>
     </nav>
   </div>
 
   <div class="body p-[1em] bg-white min-h-[300px] pt-[3em]">
-    <div class="max-w-[1000px] m-auto vp-doc">
-      <div v-if="page.isNotFound">
-        Custom 404 page!
+    <div class="max-w-[1000px] m-auto">
+      <div class="prose prose-lg mx-auto p-8 max-w-none">
+        <div v-if="page.isNotFound">
+          404
+        </div>
+        <Content v-else />
       </div>
-      <Content v-else />
     </div>
   </div>
   <footer class="text-white h-[300px]">
