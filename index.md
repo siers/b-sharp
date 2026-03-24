@@ -13,7 +13,7 @@ contact: "#"
 
 <h2><strong>Academic string orchestra B-Sharp invites to the concert "Storm-Waves-Fantasies"</strong></h2>
 
-<img src="./assets/2024-12-02-wa0006.webp" alt="" width="1080" height="1080">
+<img src="./assets/2024-12-02-wa0006.webp" alt="">
 
 Academic string orchestra *B-Sharp* **invites** you to an evening of unforgettable classical music at **St. Peter's Church on December 12, 2024, at 6:00 PM**. The concert program, titled **"Storm-Waves-Fantasies,"** explores the unique soundscapes and imaginative worlds of Wolfgang Amadeus Mozart, Felix Mendelssohn, and Edvard Grieg.
 
@@ -86,7 +86,7 @@ Pievienojies mums, lai vienotos un iedvesmotos mūzikā!
 
 15-04-2023 Our Spring season concert is due in 18th of May! See you in St. Peter's church at 17:30!
 
-<img src="./assets/2023-augsup.webp" alt="" width="1684" height="2384">
+<img src="./assets/2023-augsup.webp" alt="">
 
 ---
 

@@ -18,7 +18,9 @@ const { page, frontmatter } = useData()
         <div v-if="page.isNotFound">
           404
         </div>
-        <Content v-else />
+        <div class="main-content" v-else>
+          <Content />
+        </div>
       </div>
     </div>
   </div>
