@@ -8,4 +8,6 @@
 
 @layer components {
   body { @apply bg-[#171717]; }
+
+  img { max-width: 600px; margin: auto; }
 }
