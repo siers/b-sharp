@@ -24,7 +24,7 @@ const { page, frontmatter } = useData()
       </div>
     </div>
   </div>
-  <footer class="text-white h-[300px]">
+  <footer class="text-white h-[300px] bg-[#171717]">
     <div class="bg-[#1f1f1f]">
       <div class="max-w-[1000px] m-auto flex flex-start flex-row p-[1em]">
         <!-- <div class="p-[1em] inline-flex items-center flex-grow"> -->
@@ -38,7 +38,7 @@ const { page, frontmatter } = useData()
         <!-- </div> -->
       </div>
     </div>
-    <div class="bg-[#171717] p-[1em]">
+    <div class="p-[1em]">
       <div class="max-w-[1000px] m-auto pt-3 text-center text-[#]">
         Academic Orchestra B-Sharp, Palasta iela, Rīga, LV-1050, Latvia
       </div>
