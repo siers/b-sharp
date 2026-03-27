@@ -5,7 +5,7 @@ contact: "#"
 
 <h1>News</h1>
 
-<h2>Join B-Sharp! The new season is well underway!</h2>
+<h2>Join B-Sharp! If you want to join, sign up here, and we will get in touch with you: https://forms.gle/uEaeW8vmksrQ7kRA8.</h2>
 
 06-01-2025 - Hi! It's time for inspiration to play some music! We're looking for new members to join our orchestra again! If you play a string instrument, [sign up](https://forms.gle/SP4GanVT4LYa4C1d8) for our auditions and stay updated! 
 
