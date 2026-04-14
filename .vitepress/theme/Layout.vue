@@ -7,8 +7,8 @@ const { page, frontmatter } = useData()
   <div class="bg-[#f8f8f8]">
     <nav id="sidebar" class="block md:flex items-center justify-between px-[1em] py-[1em] bg-[#f8f8f8] max-w-[1000px] m-auto text-center uppercase text-[#b30027] font-semibold">
       <img src="./b-sharp-horizontal-rgb.webp" alt="logo" class="h-[120px] block md:order-[1] md:inline mb-5 mr-auto ml-auto">
-      <a href="/" class="block sm:inline hover:text-slate-900 font-medium order-0 text-xl">News</a>
-      <a :href="frontmatter.contact" class="block sm:inline hover:text-slate-900 font-medium order-1 text-xl">Contact us</a>
+      <a href="/" class="block sm:inline hover:text-slate-900 font-medium order-0 text-xl p-2">News</a>
+      <a :href="frontmatter.contact" class="block sm:inline hover:text-slate-900 font-medium order-1 text-xl p-2">Contact us</a>
     </nav>
   </div>
 
