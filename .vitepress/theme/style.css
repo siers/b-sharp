@@ -6,6 +6,10 @@
 @source "../**/*.{vue,js,ts,md}";
 @source "../../*.md";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Raleway", sans-serif; font-optical-sizing: auto; font-weight: 200; font-style: normal;
 }

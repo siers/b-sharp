@@ -1,9 +1,10 @@
 ---
 layout: home
 contact: /contact
+isHome: true
 ---
 
-<h1>News</h1>
+<h1 id="news">News</h1>
 
 <h2>Join B-Sharp! If you want to join, sign up <a href="https://forms.gle/uEaeW8vmksrQ7kRA8">here</a>, and we will get in touch with you.</h2>
 

@@ -1,15 +1,35 @@
 <script setup>
 import { useData } from 'vitepress'
 const { page, frontmatter } = useData()
+
+function scrollToNews(e) {
+  e.stopImmediatePropagation()
+  document.getElementById('news')?.scrollIntoView({ behavior: 'smooth' })
+}
 </script>
 
 <template>
-  <div class="bg-[#f8f8f8]">
-    <nav id="sidebar" class="block md:flex items-center justify-between px-[1em] py-[1em] bg-[#f8f8f8] max-w-[1000px] m-auto text-center uppercase text-[#b30027] font-semibold">
-      <img src="./b-sharp-horizontal-rgb.webp" alt="logo" class="h-[120px] block md:order-[1] md:inline mb-5 mr-auto ml-auto">
-      <a href="/" class="block sm:inline hover:text-slate-900 font-medium order-0 text-xl p-2">News</a>
-      <a :href="frontmatter.contact" class="block sm:inline hover:text-slate-900 font-medium order-1 text-xl p-2">Contact us</a>
-    </nav>
+  <div class="relative">
+    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/assets/2026-04-19-getrudes-konzerts-flat.png'); filter: saturate(0.5) brightness(1.0)" v-if="frontmatter.isHome"></div>
+    <div class="absolute inset-0 bg-cover bg-center" style="background: #191415;" v-else></div>
+
+    <div class="relative">
+      <nav class="block md:flex items-center justify-between px-[1em] pt-1 max-w-[1000px] m-auto text-center uppercase text-[#eee] font-semibold">
+        <div class="block md:flex items-center justify-between w-full pt-3">
+          <a href="/" @click.prevent.stop="scrollToNews" class="block sm:inline hover:text-white font-medium order-0 text-xl p-2">News</a>
+          <a href="/" class="block md:order-[1] md:inline mb-5 mr-auto ml-auto"><img src="/assets/logo-white.png" alt="logo" class="h-[70px]"></a>
+          <a href="/contact" class="block sm:inline hover:text-white font-medium order-2 text-xl p-2">Contact us</a>
+        </div>
+      </nav>
+      <div v-if="frontmatter.isHome" class="flex flex-col items-center gap-6 pb-[3em]">
+        <img src="/assets/logo-hero.png" alt="logo" class="w-full max-w-[800px] p-5">
+        <div class="flex gap-6">
+          <a href="https://fb.me/AOBSharp" target="_blank"><img src="./facebook.svg" alt="Facebook" class="w-8 h-8 hover:opacity-60" style="filter: brightness(0) invert(1)"></a>
+          <a href="https://www.instagram.com/AOBSharp" target="_blank"><img src="./instagram.svg" alt="Instagram" class="w-8 h-8 hover:opacity-60" style="filter: brightness(0) invert(1)"></a>
+          <a href="https://www.youtube.com/@akademiskais-orkestris-b-sharp" target="_blank"><img src="./youtube.svg" alt="YouTube" class="w-8 h-8 hover:opacity-60" style="filter: brightness(0) invert(1)"></a>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="body p-[1em] bg-white min-h-[300px] pt-[3em]">
