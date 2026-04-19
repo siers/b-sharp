@@ -1,6 +1,6 @@
 ---
 layout: home
-contact: "#"
+contact: /contact
 ---
 
 <h1>News</h1>
