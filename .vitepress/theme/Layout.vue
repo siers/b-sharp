@@ -11,10 +11,10 @@ function scrollToNews(e) {
 <template>
   <div class="relative">
     <!-- on small screens: background image is always there -->
-    <div class="sm:block absolute inset-0 bg-cover bg-center" style="background-image: url('/2026-04-19-getrudes-konzerts-flat.png'); filter: saturate(0.5) brightness(1.0)" v-if="frontmatter.isHome"></div>
+    <div class="sm:block absolute inset-0 bg-cover bg-center" style="background-image: url('/header.jpg'); filter: saturate(0.5) brightness(1.0)" v-if="frontmatter.isHome"></div>
     <div class="sm:block absolute inset-0 bg-cover bg-center" style="background: #191415;" v-else></div>
 
-    <div class="block sm:hidden absolute inset-0 bg-cover bg-center" style="background-image: url('/2026-04-19-getrudes-konzerts-flat.png'); filter: saturate(0.5) brightness(1.0)"></div>
+    <div class="block sm:hidden absolute inset-0 bg-cover bg-center" style="background-image: url('/header.jpg'); filter: saturate(0.5) brightness(1.0)"></div>
 
     <!-- on small screens: hero appears before menu and is always there -->
 
