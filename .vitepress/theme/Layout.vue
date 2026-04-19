@@ -49,7 +49,7 @@ function scrollToNews(e) {
           <a href="/contact" class="block sm:inline hover:text-white font-medium order-2 text-xl p-2">Contact us</a>
         </div>
       </nav>
-      <div v-if="frontmatter.isHome" class="flex flex-col items-center gap-6 pt-0 pb-7">
+      <div class="flex flex-col items-center gap-6 pt-0 pb-7">
         <div class="flex gap-6">
           <a href="https://fb.me/AOBSharp" target="_blank"><img src="./facebook.svg" alt="Facebook" class="w-8 h-8 hover:opacity-60" style="filter: brightness(0) invert(1)"></a>
           <a href="https://www.instagram.com/AOBSharp" target="_blank"><img src="./instagram.svg" alt="Instagram" class="w-8 h-8 hover:opacity-60" style="filter: brightness(0) invert(1)"></a>
