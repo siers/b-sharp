@@ -14,7 +14,7 @@ const { page, frontmatter } = useData()
 
   <div class="body p-[1em] bg-white min-h-[300px] pt-[3em]">
     <div class="max-w-[1000px] m-auto">
-      <div class="prose prose-lg mx-auto p-8 max-w-none">
+      <div class="prose prose-base mx-auto p-8 max-w-none">
         <div v-if="page.isNotFound">
           404
         </div>
