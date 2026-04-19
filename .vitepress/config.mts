@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "B-Sharp",
-  description: "A VitePress Site",
+  description: "B-Sharp Academic Orchestra Rīga",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
