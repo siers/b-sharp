@@ -5,6 +5,10 @@ isHome: true
 ---
 
 <h1 id="news">News</h1>
+<h2>B-Sharp Spring 2026 season concert is happening on May 30th, 18:00 at "Koka Rīga", Krāsotāju street 12 .</h2>
+This season we have been working with visiting conductor <b>Jēkabs Krists Kalniņš</b> and the program will consist of Edward Elgar, <b>Serenade for String Orchestra in E minor</b>, Gustav Holst, <b>St Paul's Suite for String Orchestra</b> and Jēkabs Bernāts and Ojārs Vacietis Cantata <b>"Manā pusē"</b>. The orchestra will be joined by the choir <b>"Anima Mea"</b>.
+We will be happy to see you there!
+
 
 <h2>Join B-Sharp! If you want to join, sign up <a href="https://forms.gle/uEaeW8vmksrQ7kRA8">here</a>, and we will get in touch with you.</h2>
 
